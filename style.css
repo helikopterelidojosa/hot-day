@@ -1,0 +1,48 @@
+body {
+  background-color: #b8860b;
+
+  /* kraasa burtiem */
+  color: #541b1b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-clip: 100%;
+  
+}
+
+/* virsrakstus centraa */
+h1{text-align: center;}
+h2{text-align: center;}
+
+ul {
+  /*  lai visus raada vienaa liinijaa */
+  display: flex;
+
+  flex-wrap: wrap;
+
+  /* saraksts lai ir centaa */
+  justify-content: center;
+
+  /* nonemt aplisus no saraksta */
+  list-style-type:none;
+
+}
+
+li {
+  /* lai buutu atstarpe peec katra */
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+  /* katram atseviski savs noformejums */
+  color: #b9f3e0;
+   background-color: #194343; 
+
+   /* noapalotas malas */
+   border-radius: 5px;
+
+   /* ieksejais attalums no malam uz ieksu */
+   padding: 10px;
+}
+
+
